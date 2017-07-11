@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-aop-exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-aop-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-aop-exercise_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-aop-exercise_main.iml" group="spring-aop-exercise" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-aop-exercise_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-aop-exercise_test.iml" group="spring-aop-exercise" />
+    </modules>
+  </component>
+</project>
