@@ -1,5 +1,7 @@
 package services;
 
+import java.io.IOException;
+
 @org.springframework.stereotype.Component
 public class Component {
     public void display(){
@@ -11,10 +13,9 @@ public class Component {
     public void pointcutDisplay(){
         System.out.println("pointcutDisplay() called");
     }
-    public void exceptionThrowingMethod(){
+    public void exceptionThrowingMethod() throws IOException{
         System.out.println("exceptionThrowingMethod() invoked");
-        throw new RuntimeException();
-
+        throw new IOException();
     }
     public void displayJoinpointProperties(int i,String s){
         System.out.println("displayJoinpointProperties() invoked");

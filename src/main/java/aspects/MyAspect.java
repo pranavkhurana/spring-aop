@@ -4,6 +4,8 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 
+import java.io.IOException;
+
 @Aspect
 public class MyAspect {
 
@@ -24,7 +26,7 @@ public class MyAspect {
 
     //for solution3
     @AfterThrowing(pointcut = "execution(* *(..))",throwing = "ex")
-    public void displayAfterThrowing(Exception ex){
+    public void displayAfterThrowing(IOException ex){
         System.out.println("@AfterThrowing advice invoked - Exception raised: "+ex);
     }
 
